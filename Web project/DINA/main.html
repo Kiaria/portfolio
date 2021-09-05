@@ -20,33 +20,8 @@
 	<link href="css/main_min-width_925.css" media ="(min-width: 925px)" rel="stylesheet">
 
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="js/menubar.js"></script> 
 	
-	<script>
-
-		$(document).ready(function(){
-			$('.bar1').on('click', function(){
-				$("#barback").show();
-				$('#nav1').show().animate({
-					right:0
-				});  
-			});
-
-			$(function(){
-				$(".bar2").click(function(){
-					$(".bar1").show();
-					$("#nav1").hide();
-					$("#barback").hide();
-				});
-			});
-
-			$(window).resize(function(){
-
-				if(window.innerWidth>=925){
-					$("#nav1").show(); 
-				}
-			});
-		});
-	</script>
 
 </head>
 
