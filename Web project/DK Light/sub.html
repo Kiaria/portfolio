@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
 	<title> DK 대광조명 </title>
 
+	<meta charset="utf-8">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,6 +11,10 @@
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/common.css" rel="stylesheet">
 	<link href="css/sub.css" rel="stylesheet">
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<script src="js/sub/imgclick.js"></script>
+
 
 </head>
 
@@ -50,13 +55,12 @@
 				</div>
 
 				<div id="logo">
-					 <a href="main.html" target="_self"> <img src="img/logo.jpg" alt="logo"> </a>
+					<a href="main.html" target="_self"> <img src="img/logo.jpg" alt="logo"> </a>
 				</div>
 
 				<!-- nav=카테고리  -->
 				<div class="navbox">
 					<ul>
-						<li> <a href="#"> <img src="img/bars.png"> </a> </li>
 						<li> <a href="#"> 대형/샹들리에 </a> </li>
 						<li> <a href="#"> LED방등/거실등 </a> </li>
 						<li class="subnav"> 식탁등/펜던트 </li>
@@ -135,7 +139,7 @@
 			<tr>
 				<td class="setd1"> TYPE </td>
 				<td>
-					<select name="select" id="select" >
+					<select name="select">
 						<option selected="selected">-[필수] 옵션을 선택해 주세요 -</option>
 						<option disabled="disabled">-------------------</option>
 						<option value="3등">3등</option>
@@ -148,7 +152,7 @@
 			<tr>
 				<td class="setd2"> 파이프 </td>
 				<td>
-					<select name="select" id="select" >
+					<select name="select">
 						<option selected="selected">-[필수] 옵션을 선택해 주세요 -</option>
 						<option disabled="disabled">-------------------</option>
 					</select>
@@ -159,7 +163,7 @@
 			<tr>
 				<td class="setd3"> LAMP </td>
 				<td> 
-					<select name="select" id="select" >
+					<select name="select">
 						<option selected="selected">-[필수] 옵션을 선택해 주세요 -</option>
 						<option disabled="disabled">-------------------</option>
 					</select>
@@ -222,26 +226,26 @@
 			<div class="img2">
 
 				<div class="imgbox">
-					<a href="https://dklux.kr/product/%ED%95%98%EC%9A%B0%EC%8A%A4-3%EB%93%B1-%ED%8E%9C%EB%8D%98%ED%8A%B8/6974/category/27/display/1/" target="_blank"> <img src="img/sub/img1.jpg" alt="img1"> </a>
+					<a href="#"> <img src="img/sub/img1.jpg" alt="img1"> </a>
 					<p class="imgp"> <a href="#"> 하우스 3등 펜던트 </a> </p>
 					<span> 320,000원 </span>
 
 				</div>
 
 				<div class="imgbox">
-					<a href="https://dklux.kr/product/%EC%8A%A4%ED%8A%B8%EB%A1%9C%ED%81%AC-%ED%8E%9C%EB%8D%98%ED%8A%B8-4%EB%93%B16%EB%93%B1/11486/category/27/display/1/"> <img src="img/sub/img2.jpg" alt="img2"> </a>
+					<a href="#"> <img src="img/sub/img2.jpg" alt="img2"> </a>
 					<p class="imgp"> <a href="#"> 스트로크 펜던트 (4등/6등) </a> </p>
 					<span> 70,000원 </span>
 				</div>
 
 				<div class="imgbox">
-					<a href="https://dklux.kr/product/%EC%8A%88%ED%8E%98%EB%84%88-%ED%8E%9C%EB%8D%98%ED%8A%B8-%EA%B8%B0%EB%B3%B8%ED%98%95%EA%B0%93%ED%98%95/13977/category/27/display/1/"> <img src="img/sub/img3.jpg" alt="img3"> </a>
+					<a href="#"> <img src="img/sub/img3.jpg" alt="img3"> </a>
 					<p class="imgp"> <a href="#"> 슈페너 펜던트 (기본형/갓형) </a> </p>
 					<span> 250,000원 </span>
 				</div>
 
 				<div class="imgbox">
-					<a href="https://dklux.kr/product/%EC%97%94%ED%8B%B1-%EB%A1%9C%EB%B9%88-8%EB%93%B1-%EC%A7%81%EB%B6%80/15347/category/25/display/1/"> <img src="img/sub/img4.jpg" alt="img4"> </a>
+					<a href="#"> <img src="img/sub/img4.jpg" alt="img4"> </a>
 					<p class="imgp"> <a href="#"> 엔틱 로빈 8등 직부 </a> </p>
 					<span> 405,000원 </span>
 				</div>
@@ -260,9 +264,9 @@
 				</div>
 
 				<div class="questionbtn">
-					<a href="#"> <button class="qbtn1">  <i class="fa fa-bars"></i> &nbsp; 모두보기 </button> </a>
+					<button class="qbtn1">  <i class="fa fa-bars"></i> &nbsp; 모두보기 </button>
 
-					<a href="#"> <button class="qbtn2"> <i class="fa fa-pencil"> </i> &nbsp; 후기작성 </button> </a>
+					<button class="qbtn2"> <i class="fa fa-pencil"> </i> &nbsp; 후기작성 </button>
 				</div> 
 			</div>
 		</div>
@@ -279,9 +283,9 @@
 				</div>
 
 				<div class="qabtn2">
-					<a href="#"> <button class="qbtn3"> <i class="fa fa-bars"> </i> &nbsp; 모두보기  </button> </a>
+					<button class="qbtn3"> <i class="fa fa-bars"> </i> &nbsp; 모두보기  </button>
 
-					<a href="#"> <button class="qbtn4"> <i class="fa fa-pencil"> </i> &nbsp; 후기작성 </button> </a>
+					<button class="qbtn4"> <i class="fa fa-pencil"> </i> &nbsp; 후기작성 </button>
 				</div> 
 			</div>
 		</div>
@@ -319,19 +323,19 @@
 			<div class="com1">
 				<div class="combox">
 					<div class="comimg">
-						<a href="https://dklux.kr/board/free/read.html?no=103&board_no=5&category_no=1&cate_no=1&category_no=1" target="_blank"> <img src="img/sub/sub1.jpg" alt="sub1" > </a>
+						<a href="#"> <img src="img/sub/sub1.jpg" alt="sub1" > </a>
 					</div>
 
 					<div class="comimg">
-						<a href="https://dklux.kr/shopinfo/company.html" target="_blank"> <img src="img/sub/sub2.jpg" alt="sub2"> </a>
+						<a href="#"> <img src="img/sub/sub2.jpg" alt="sub2"> </a>
 					</div>
 
 					<div class="comimg">
-						<a href="https://dklux.kr/board/free/list.html?board_no=5" target="_blank"> <img src="img/sub/sub3.jpg" alt="sub3"> </a>
+						<a href="#"> <img src="img/sub/sub3.jpg" alt="sub3"> </a>
 					</div>
 
 					<div class="comimg">
-						<a href="http://dklux.cafe24.com/estimate/userform.html" target="_blank"> <img src="img/sub/sub4.jpg" alt="sub4"> </a>
+						<a href="#"> <img src="img/sub/sub4.jpg" alt="sub4"> </a>
 					</div>
 				</div>
 			</div>
@@ -341,7 +345,7 @@
 	<footer>
 		<div id="footerbox">
 			<div id="footerbox1">
-				<a href="https://dklux.kr/" target="_blank"> <img src="img/footer1.jpg" alt="footer1"> </a>
+				<a href="#"> <img src="img/footer1.jpg" alt="footer1"> </a>
 
 				<div class="customer">
 					<h2> CUSTOMRE CENTER</h2>
@@ -357,16 +361,16 @@
 
 				<div class="footerul">
 					<ul>
-						<li> <a href="https://dklux.kr/shopinfo/company.html" target="_blank"> COMPANY </a>  </li>     
-						<li> <a href="https://dklux.kr/member/agreement.html" target="_blank"> AGREEMENT </a> </li>      
-						<li> <a href="https://dklux.kr/shopinfo/guide.html" target="_blank"> GUIDE </a> </li>     
-						<li> <a href="https://dklux.kr/member/privacy.html" target="_blank"> PRIVACY POLICY </a> </li>
+						<li> <a href="#"> COMPANY </a>  </li>     
+						<li> <a href="#"> AGREEMENT </a> </li>      
+						<li> <a href="#"> GUIDE </a> </li>     
+						<li> <a href="#"> PRIVACY POLICY </a> </li>
 					</ul>
 				</div>
 
 				<div class="footertext">
 					<p> COMPANY 대광조명 &nbsp;    OWNER 김계영   &nbsp;  TEL 02-2268-0887 &nbsp;    FAX 02-2269-0826 </p>
-					<p> BUSINESS NUMBER 101-02-50622 MAIL-ORDER LICENSE 제2015-서울중구-0962호 </p> <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1010250622" target="_blank"> <span class="footerlink"> [ 사업자정보확인 ] </span> </a>
+					<p> BUSINESS NUMBER 101-02-50622 MAIL-ORDER LICENSE 제2015-서울중구-0962호 </p> <a href="#"> <span class="footerlink"> [ 사업자정보확인 ] </span> </a>
 					<p> ADDRESS 서울특별시 중구 을지로 190 (을지로4가)  &nbsp;   E-MAIL dknokwon@naver.com </p>
 					<p>이미지 무단 도용 시 저작권법에 의해 처벌을 받을 수 있습니다. <br>
 					Copyright ⓒ 대광조명. All rights reserved.  </p>
@@ -376,15 +380,4 @@
 	</footer>
 
 </body>
-
-<script>
-			btn1.onclick=function(){ mimg.src="img/sub/mainmini1.jpg"; }
-
-
-			btn2.onclick=function(){ mimg.src="img/sub/main2.jpg";  }
-
-
-
-			btn3.onclick=function(){ mimg.src="img/sub/main3.jpg"; }
-		</script>
 </html>
