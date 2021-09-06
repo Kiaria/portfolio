@@ -11,81 +11,15 @@
 	<link href="css/common.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
 
-
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
-		<script>
-			function prev(){
-				$('.main li:last').prependTo('.main');
-            // $('.slide').css({marginLeft:-1000}); 
-            $('.main').stop().animate({marginLeft:0},800);
-
-        }
+	<script src="js/today.js"></script>
+	<script src="js/event.js"></script>
+	<script src="js/best.js"></script>
+	<script src="js/desk.js"></script>
+	<script src="js/stand.js"></script>
 
 
-
-        function next(){
-        	$('.main').stop().animate({marginLeft: 1}, function(){
-        		$('.main li:first').appendTo('.main');
-        		$('.main').css({marginLeft:0});
-        	});
-        }
-
-
-        function main(){
-        	$('.main').stop().animate({marginLeft:-1}, function(){
-        		$('.main li:first').appendTo('.main');
-        		$('.main').css({marginLeft:0});
-        	});
-        }
-
-        setInterval(main, 3000);
-
-        $('.prev').click(function(){
-        	prev();
-        });
-
-        $('.next').click(function(){
-        	next();
-        });
-
-
-        function prev2(){
-        	$('.main2 li:last').prependTo('.main2');
-            // $('.slide').css({marginLeft:-1000}); 
-            $('.main2').stop().animate({marginLeft:0},800);
-
-        }
-
-
-
-        function next2(){
-        	$('.main2').stop().animate({marginLeft: 1}, function(){
-        		$('.main2 li:first').appendTo('.main2');
-        		$('.main2').css({marginLeft:0});
-        	});
-        }
-
-
-        function main2(){
-        	$('.main2').stop().animate({marginLeft:0}, function(){
-        		$('.main2 li:first').appendTo('.main2');
-        		$('.main2').css({marginLeft:0});
-        	});
-        }
-
-        setInterval(main2, 4000);
-
-        $('.prev2').click(function(){
-        	prev2();
-        });
-
-        $('.next2').click(function(){
-        	next2();
-        });
-
-    </script>
-
-
+	
 </head>
 
 <body>
@@ -190,29 +124,10 @@
 				<a href="#"> <p> <span> Event </span> Planning </p> </a>
 
 				<div class="eventboxs">
-					<div class="eventbox">
-						<a href="#"> <img src="img/event/event1.jpg" alt="event1"> </a>
-						<a href="#"> <span> 테이블 위 작은 포인트 </span> <br> </a>
-						<a href="#"> <div class="ediv">미니 스탠드 모음 </div> </a>
-					</div>
-
-					<div class="eventbox">
-						<a href="#"> <img src="img/event/event2.jpg" alt="event2"> </a>
-						<a href="#"> <span> Home cafe lighting </span> <br> </a>
-						<a href="#"> <div class="ediv">감성 가득 홈 카페 조명 </div> </a>
-					</div>
-
-					<div class="eventbox">
-						<a href="#"> <img src="img/event/event3.jpg" alt="event3"> </a>
-						<a href="#"> <span> 우아한 포인트 조명 </span> <br> </a>
-						<a href="#"> <div class="ediv">패턴 글라스 모음전 </div> </a>
-					</div>
-
-					<div class="eventbox">
-						<a href="#"> <img src="img/event/event4.jpg" alt="event4"> </a>
-						<a href="#"> <span> 찬란하게 빛나리 </span> <br> </a>
-						<a href="#"> <div class="ediv">크리스탈 클리어 </div> </a>
-					</div>
+					<div class="eventbox"> </div>
+					<div class="eventbox"> </div>
+					<div class="eventbox"> </div>
+					<div class="eventbox"> </div>
 				</div>
 			</div>
 		</div>
@@ -226,69 +141,20 @@
 			</div>
 
 			<div id="tboxs">
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today1.jpg" alt="today1"> </a>
-					<a href="#"> <div class="tname"> 엔틱 로빈 8등 직부 </div> </a>
-					<span> 405,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today2.jpg" alt="today2"> </a>
-					<a href="#"> <div class="tname"> 골드 모자이크 4등 펜던트 </div> </a>
-					<span> 282,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today3.jpg" alt="today3"> </a>
-					<a href="#"> <div class="tname"> 샌디스 6등 펜던트 </div> </a>
-					<span> 634,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today4.jpg" alt="today4"> </a>
-					<a href="#"> <div class="tname"> 클라이드 12등 직부 </div> </a>
-					<span> 141,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today5.jpg" alt="today5"> </a>
-					<a href="#"> <div class="tname"> 라탄 수공예 1등 펜던트 </div> </a>
-					<span> 63,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today6.jpg" alt="today6"> </a>
-					<a href="#"> <div class="tname"> LED 럭키 클로버 방등 </div> </a>
-					<span> 145,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today7.jpg" alt="today7"> </a>
-					<a href="#"> <div class="tname"> 로랑 2등 직부 (센서 겸용) </div> </a>
-					<span> 99,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today8.jpg" alt="today8"> </a>
-					<a href="#"> <div class="tname"> 클라린 1등 직부 (일반 / 센서) </div> </a>
-					<span> 108,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today9.jpg" alt="today9"> </a>
-					<a href="#"> <div class="tname"> 레이니 1등 펜던트 </div> </a>
-					<span id="tsname"> <br> 주문 제작 상품으로 제작 기간이 며칠 소요되며 단순 변심 환불은 불가합니다.</span> <br>
-					<span> 115,000원 </span>
-				</div>
-
-				<div class="tbox">
-					<a href="#"> <img src="img/today/today10.jpg" alt="today10"> </a>
-					<a href="#"> <div class="tname"> 라엘 크리스탈 펜던트 (일반 / 센서) </div> </a>
-					<span> 156,000원 </span>
-				</div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
+				<div class="tbox"> </div>
 			</div>
 		</div>
 	</div>
+
 	<!--besttop= BestTop 20  -->
 	<div id="contents2">
 		<div id="bttop">
@@ -297,133 +163,30 @@
 			</div>
 
 			<div id="btboxs">
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best1.jpg" alt="best1"> </a>
-					<a href="#"> <div class="bname"> LED 라인 매입등 (기본 1M) </div> </a>
-					<span class="bspan"> * 국내생산 / 삼성 SMPS 사용 / 디밍 추가 가능 </span> <br>
-					<span>98,000원</span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best2.jpg" alt="best2"> </a>
-					<a href="#"> <div class="bname"> 슬림 라인 장스탠드 </div> </a>
-					<span class="bspan"> 선길이 조절이 가능합니다. </span> <br>
-					<span>180,000원</span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best3.jpg" alt="best3"> </a>
-					<a href="#"> <div class="bname"> 앤드 라운드 펜던트 </div> </a>
-					<span> 80,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best4.jpg" alt="best4"> </a>
-					<a href="#"> <div class="bname"> Stone 스탠드 </div> </a>
-					<span class="bspan"> 내성적인보스 협찬 </span> <br>
-					<span> 80,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best5.jpg" alt="best5"> </a>
-					<a href="#"> <div class="bname"> 넬슨 1등 펜던트 (4타입) </div> </a>
-					<span> 128,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best6.jpg" alt="best6"> </a>
-					<a href="#"> <div class="bname"> 앤젤 패브릭 장스탠드 </div> </a>
-					<span> 222,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best7.jpg" alt="best7"> </a>
-					<a href="#"> <div class="bname"> 키엘 링 펜던트 (1단) </div> </a>
-					<span> 120,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best8.jpg" alt="best8"> </a>
-					<a href="#"> <div class="bname"> LED 스페이스 원형 직부등 (4size) </div> </a>
-					<span> 40,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best9.jpg" alt="best9"> </a>
-					<a href="#"> <div class="bname"> 반달 벽등 </div> </a>
-					<span> 60,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best10.jpg" alt="best10"> </a>
-					<a href="#"> <div class="bname"> 슬림 파이프 스탠드 </div> </a>
-					<span> 135,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best11.jpg" alt="best11"> </a>
-					<a href="#"> <div class="bname"> 그리스 반원 벽등 </div> </a>
-					<span> 60,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best12.jpg" alt="best12"> </a>
-					<a href="#"> <div class="bname"> 에녹 플레인 매입등 </div> </a>
-					<span> 55,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best13.jpg" alt="best13"> </a>
-					<a href="#"> <div class="bname"> 셀린 데코 직부 (4, 6등) </div> </a>
-					<span class="bspan"> 6등 제품은 주문품으로 3~5일 소요됩니다.
-					<br> 주문형 상품으로, 교환 및 환불이 불가합니다. </span> <br>
-					<span> 198,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best14.jpg" alt="best14"> </a>
-					<a href="#"> <div class="bname"> 로얄 크리스탈 벽등 </div> </a>
-					<span> 110,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best15.jpg" alt="best15"> </a>
-					<a href="#"> <div class="bname"> 플랫 우드 포인트 펜던트 </div> </a>
-					<span> 213,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best16.jpg" alt="best16"> </a>
-					<a href="#"> <div class="bname"> 앤드 라운드 버블 펜던트 </div> </a>
-					<span> 170,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best17.jpg" alt="best17"> </a>
-					<a href="#"> <div class="bname"> 아치 우드 장스탠드 </div> </a>
-					<span> 460,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best18.jpg" alt="best18"> </a>
-					<a href="#"> <div class="bname"> 루이스 글라스 장스탠드 </div> </a>
-					<span> 300,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best19.jpg" alt="best19"> </a>
-					<a href="#"> <div class="bname"> LED 라떼 펜던트 </div> </a>
-					<span> 168,000원 </span>
-				</div>
-
-				<div class="btbox">
-					<a href="#"> <img src="img/best/best20.jpg" alt="best20"> </a>
-					<a href="#"> <div class="bname"> 컬러 플랫폼 펜던트 </div> </a>
-					<span> 220,000원 </span>
-				</div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
+				<div class="btbox"> </div>
 			</div>
 		</div>
 	</div>
+
 
 	<!-- bestdesk= Best식탁등 -->
 
@@ -432,235 +195,57 @@
 			<a href="#"> <img src="img/desk/deskmain.jpg" alt="deskmain"> </a>
 
 			<div id="bdboxs">
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk1.jpg" alt="desk1"> </a>
-					<a href="#"> <div class="bdname"> 마그넷 라인 가로형 펜던트 (2type) </div> </a>
-					<span> 355,000원 </span> <br>
-					<span class="bdspan"> *분리 및 탈부착이 가능한 제품입니다. </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk2.jpg" alt="desk2"> </a>
-					<a href="#"> <div class="bdname"> 턴테이블 펜던트 </div> </a>
-					<span> 143,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk3.jpg" alt="desk3"> </a>
-					<a href="#"> <div class="bdname"> 자개 샹들리에 </div> </a>
-					<span> 290,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk4.jpg" alt="desk4"> </a>
-					<a href="#"> <div class="bdname"> 챠밍 로즈 펜던트 </div> </a>
-					<span> 50,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk5.jpg" alt="desk5"> </a>
-					<a href="#"> <div class="bdname"> 디뮤어 펜던트 (中/大) </div> </a>
-					<span> 325,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk6.jpg" alt="desk6"> </a>
-					<a href="#"> <div class="bdname"> Wave 웨이브 펜던트 (소형/대형) </div> </a>
-					<span> 128,000원 </span> <br>
-					<span class="bdspan"> '대형' 사이즈가 추가되었습니다. </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk7.jpg" alt="desk7"> </a>
-					<a href="#"> <div class="bdname"> LED 라인 헤르츠 펜던트 </div> </a>
-					<span> 150,000원 </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk8.jpg" alt="desk8"> </a>
-					<a href="#"> <div class="bdname"> 스페인 카라 펜던트 (고정홀더형) </div> </a>
-					<span> 285,000원 </span> <br>
-					<span class="bdspan"> 전기시공이 필요 없는 고정홀더형 </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk9.jpg" alt="desk9"> </a>
-					<a href="#"> <div class="bdname"> 플리츠 1등 펜던트 </div> </a>
-					<span> 220,000원 </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk10.jpg" alt="desk10"> </a>
-					<a href="#"> <div class="bdname"> 피에트 펜던트 </div> </a>
-					<span> 75,000원 </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk11.jpg" alt="desk11"> </a>
-					<a href="#"> <div class="bdname"> LED 골든링 1단 펜던트 (1~4호) </div> </a>
-					<span> 300,000원 </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk12.jpg" alt="desk12"> </a>
-					<a href="#"> <div class="bdname"> 아라 IC 펜던트 (블랙) </div> </a>
-					<span> 106,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk13.jpg" alt="desk13"> </a>
-					<a href="#"> <div class="bdname"> 루나 링 시리즈 </div> </a>
-					<span> 68,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk14.jpg" alt="desk14"> </a>
-					<a href="#"> <div class="bdname"> 프라페 4등 펜던트 (라운드) </div> </a>
-					<span> 300,000원 </span>
-				</div>	
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk15.jpg" alt="desk15"> </a>
-					<a href="#"> <div class="bdname"> 멜로 1등 펜던트 ( 小 / 大 ) </div> </a>
-					<span> 145,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk16.jpg" alt="desk16"> </a>
-					<a href="#"> <div class="bdname"> 트리플 라인 직부등 </div> </a>
-					<span> 440,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk17.jpg" alt="desk17"> </a>
-					<a href="#"> <div class="bdname"> 스테인드 플라워 펜던트 </div> </a>
-					<span> 100,000원 </span> 
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk18.jpg" alt="desk18"> </a>
-					<a href="#"> <div class="bdname"> 스파클 1등 펜던트 </div> </a>
-					<span> 155,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk19.jpg" alt="desk19"> </a>
-					<a href="#"> <div class="bdname"> 가브리엘 펜던트 (3 Type) </div> </a>
-					<span> 635,000원 </span>
-				</div>
-
-				<div class="bdbox">
-					<a href="#"> <img src="img/desk/desk20.jpg" alt="desk20"> </a>
-					<a href="#"> <div class="bdname"> 버킨 하드 원통 펜던트 (주문품) </div> </a>
-					<span> 200,000원 </span> <br>
-					<span class="bdspan"> 주문품은 교환 및 반품이 불가 합니다. </span> 
-				</div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
+				<div class="bdbox"> </div>
 			</div>
 		</div>
 	</div>
 
 	<!-- beststand= Best스탠드-->
+
 	<div id="contents4">
 		<div id="beststand">
 			<a href="#"> <img src="img/stand/standmain.jpg" alt="standmain"> </a>
 
 			<div id="bsboxs">
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand1.jpg" alt="stand1"> </a>
-					<a href="#"> <div class="bsname"> 슬림 원형 장스탠드 </div> </a>
-					<span> 265,000원 </span> <br>
-					<span class="bsspan"> 선길이 조절이 가능합니다. </span> 
-				</div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
+				<div class="bsbox"> </div>
 
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand2.jpg" alt="stand2"> </a>
-					<a href="#"> <div class="bsname"> 플랫 오브제 우드 스탠드 </div> </a>
-					<span> 355,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand3.jpg" alt="stand3"> </a>
-					<a href="#"> <div class="bsname"> 크리즈 장스탠드 </div> </a>
-					<span> 125,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand4.jpg" alt="stand4"> </a>
-					<a href="#"> <div class="bsname"> 오델로 단스탠드 </div> </a>
-					<span> 168,000원 </span> <br>
-					<span class="bsspan"> 일단 뜨럽게 청소하라 협찬 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand5.jpg" alt="stand5"> </a>
-					<a href="#"> <div class="bsname"> [DK] 퀸 세라믹 미니스탠드 (6 타입) </div> </a>
-					<span> 129,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand6.jpg" alt="stand6"> </a>
-					<a href="#"> <div class="bsname"> 머쉬룸 단스탠드 </div> </a>
-					<span> 318,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand7.jpg" alt="stand7"> </a>
-					<a href="#"> <div class="bsname"> 버퍼드 장스탠드 </div> </a>
-					<span> 370,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand8.jpg" alt="stand8"> </a>
-					<a href="#"> <div class="bsname"> LED 포인트 일자 스탠드 </div> </a>
-					<span> 288,000원 </span> 
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand9.jpg" alt="stand9"> </a>
-					<a href="#"> <div class="bsname"> LED 윈디 크로스 단스탠드 </div> </a>
-					<span> 280,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand10.jpg" alt="stand10"> </a>
-					<a href="#"> <div class="bsname"> 하이퍼 스탠드 </div> </a>
-					<span> 215,000원 </span>
-				</div>	
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand11.jpg" alt="stand11"> </a>
-					<a href="#"> <div class="bsname"> 발리볼 장스탠드 </div> </a>
-					<span> 184,000원 </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand12.jpg" alt="stand12"> </a>
-					<a href="#"> <div class="bsname"> 로망 단스탠드 </div> </a>
-					<span> 388,000원 </span> 
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand13.jpg" alt="stand13"> </a>
-					<a href="#"> <div class="bsname"> 트리플 쉐이드 3등 장스탠드 </div> </a>
-					<span> 440,000원 </span> <br>
-					<span class="bsspan"> 주문 제작 상품으로 제작 기간이 며칠 소요되며 단순 변심 환불은 불가합니다. </span>
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand14.jpg" alt="stand14"> </a>
-					<a href="#"> <div class="bsname"> 베를린 장스탠드 </div> </a>
-					<span> 285,000원 </span> 
-				</div>
-
-				<div class="bsbox">
-					<a href="#"> <img src="img/stand/stand15.jpg" alt="stand15"> </a>
-					<a href="#"> <div class="bsname"> 에그볼 단스탠드 (주문품) </div> </a>
-					<span> 160,000원 </span> <br>
-					<span class="bsspan"> 주문품은 교환 및 반품이 불가 합니다 </span>
-				</div>
 			</div>
 		</div>
 	</div>
+
 	<footer>
 		<div id="footerbox">
 			<div id="footerbox1">
@@ -697,5 +282,6 @@
 			</div>
 		</div>
 	</footer>
+
 </body>
 </html>

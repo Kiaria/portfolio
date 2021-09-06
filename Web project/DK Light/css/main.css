@@ -1,11 +1,9 @@
 @charset "utf-8";
 
 /* 메인 이미지 */
-
 #slider > #main { width: 100%;  height: 500px; margin: 45px auto; background-color: green; }
 #slider > #main > a > img { width: 100%; height: 100%; margin: 0 auto; }
 #slider > #main > a > img:hover { cursor: pointer; }
-
 
 
 #contents { width: 1260px; height: 1480px; margin: 0 auto; }
@@ -48,7 +46,7 @@
 #contents > #today > #tboxs > .tbox > a > .tname { width: 234px; height: 23px; float: left; font-size: 12px; border-bottom: 1px solid #f0f0f0; color: #333; margin: 5px 0 0 0; }
 #contents > #today > #tboxs > .tbox > a > .tname:hover { cursor: pointer; }
 #contents > #today > #tboxs > .tbox > span { font-size: 12px; font-weight: bold; color: #333; display: inline-block; padding-bottom: 1px;}
-#contents > #today > #tboxs > .tbox > #tsname { font-size: 11px; color: #999; line-height: 120%; margin: -7px 0 0 0;}
+#contents > #today > #tboxs > .tbox > #tsname { font-size: 11px; color: #999; line-height: 120%; margin: 5px 0 0 0;}
 
 /* BEST */
 #contents2 { width: 1260px; height: 1450px; margin: 0 auto; }
@@ -62,8 +60,8 @@
 #contents2 > #bttop > #btboxs > .btbox > a > img:hover { cursor: pointer; opacity: 0.7; }
 #contents2 > #bttop > #btboxs > .btbox > a > .bname { width: 234px; height: 23px; border-bottom: 1px solid #f0f0f0; font-size: 12px; color: #333; margin: 5px 0 0 0; }
 #contents2 > #bttop > #btboxs > .btbox > a > .bname:hover { cursor: pointer; }
-#contents2 > #bttop > #btboxs > .btbox > .bspan { font-size: 11px; color: #999;  line-height: 120%; }
-#contents2 > #bttop > #btboxs > .btbox > span { font-size: 12px; font-weight: bold; color: #333; display: inline-block; padding: 5px 0;  }
+#contents2 > #bttop > #btboxs > .btbox > .bspan { font-size: 11px; color: #999;  line-height: 120%; padding-top: 20px; }
+#contents2 > #bttop > #btboxs > .btbox > span { font-size: 12px; font-weight: bold; color: #333; padding: 5px 0; }
 
 /* Desk */
 #contents3 { width: 1260px; height: 1900px;  margin: 0 auto; }
@@ -77,7 +75,7 @@
 #contents3 > #bestdesk > #bdboxs > .bdbox > a > .bdname { width: 234px; height: 23px; float: left; font-size: 12px; border-bottom: 1px solid #f0f0f0; color: #333; margin: 5px 0 0 0; }
 #contents3 > #bestdesk > #bdboxs > .bdbox > a > .bdname:hover { cursor: pointer; }
 #contents3 > #bestdesk > #bdboxs > .bdbox > span { font-size: 12px; font-weight: bold; color: #333;  }
-#contents3 > #bestdesk > #bdboxs > .bdbox > .bdspan { font-size: 7px; color: #999; }
+#contents3 > #bestdesk > #bdboxs > .bdbox > #bdspan { font-size: 7px; color: #999; }
 
 /* Stand */
 #contents4 { width: 1260px; height: 1650px; margin: 0 auto;  }
