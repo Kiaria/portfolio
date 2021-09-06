@@ -12,14 +12,16 @@
 	<link href="css/main.css" rel="stylesheet">
 
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+	<!-- JSON  start-->
 	<script src="js/today.js"></script>
 	<script src="js/event.js"></script>
 	<script src="js/best.js"></script>
 	<script src="js/desk.js"></script>
 	<script src="js/stand.js"></script>
+	<!-- JSON  end-->
 
-
-	
+	<script src="js/slider.js"></script>  <!-- 메인 및 탭박스 slider-->
+	<script src="js/nav.js"></script> <!-- nav hover시 submenu show / hide-->
 </head>
 
 <body>
@@ -35,9 +37,9 @@
 							<li> | </li>
 							<li> <a href="#"> 즐겨찾기 </a> </li>
 							<li> | </li>
-							<li> <a href="https://www.instagram.com/dklux.kr/" target="_blank"> <img src="img/instar.png" alt="인스타"> </a> </li>
-							<li> <a href="https://blog.naver.com/dklux" target="_blank"> <img src="img/blog.png" alt="블로그"> </a> </li>
-							<li> <a href="https://www.facebook.com/daekwanglighting/?ref=aymt_homepage_panel" target="_blank"> <img src="img/fb.png" alt="페북"> </a> </li>
+							<li> <a href="#"> <img src="img/instar.png" alt="인스타"> </a> </li>
+							<li> <a href="#"> <img src="img/blog.png" alt="블로그"> </a> </li>
+							<li> <a href="#"> <img src="img/fb.png" alt="페북"> </a> </li>
 						</ul>
 					</div>
 
@@ -65,19 +67,122 @@
 				<!-- nav=카테고리  -->
 				<div class="navbox">
 					<ul>
-						<li> <a href="sub.html" target="_self"> <img src="img/bars.png"> </a> </li>
-						<li> <a href="sub.html" target="_self"> 대형/샹들리에 </a> </li>
-						<li> <a href="sub.html" target="_self"> LED방등/거실등 </a> </li>
-						<li> <a href="sub.html" target="_self"> 식탁등/펜던트 </a> </li>
-						<li> <a href="sub.html" target="_self"> 주방/사무실 </a> </li>
-						<li> <a href="sub.html" target="_self"> 벽등 </a> </li>
-						<li> <a href="sub.html" target="_self"> 욕실/현관/센서 </a> </li>	
-						<li> <a href="sub.html" target="_self"> 스탠드 </a> </li>
-						<li> <a href="sub.html" target="_self"> 키즈조명 </a> </li>
-						<li> <a href="sub.html" target="_self"> 스포트/매입등 </a> </li>
-						<li> <a href="sub.html" target="_self"> 야외/산업조명 </a> </li>
-						<li> <a href="sub.html" target="_self"> 전구/자재 </a> </li>
-						<li> <a href="sub.html" target="_self"> DK단독 </a> </li>
+						<li> <a href="sub.html" target="_self"> 대형/샹들리에 </a> 
+							<ul class="sub_menu">
+								<li> <a href="#"> 실링팬 </a> </li>
+								<li> <a href="#"> LED모던라인 </a> </li>
+								<li> <a href="#"> 클래식형 </a> </li>
+								<li> <a href="#"> 가지형 </a> </li>
+								<li> <a href="#"> 계단/세로형 </a> </li>
+								<li> <a href="#"> 인테리어형 </a> </li>
+								<li> <a href="#"> 직부형 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> LED방등/거실등 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> LED방등 </a> </li>
+								<li> <a href="#"> LED거실등 </a> </li>
+								<li> <a href="#"> 디자인직부형 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 식탁등/펜던트 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 대형식탁등 </a> </li>
+								<li> <a href="#"> 모던라인형 </a> </li>
+								<li> <a href="#"> 스틸형 </a> </li>
+								<li> <a href="#"> 유리/크리스탈/세라믹 등 </a> </li>
+								<li> <a href="#"> 패브릭/페이퍼 </a> </li>
+								<li> <a href="#"> 원목형 </a> </li>
+								<li> <a href="#"> 인테리어형 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 주방/사무실 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 슬림/직부형 </a> </li>
+								<li> <a href="#"> 매입형 </a> </li>
+								<li> <a href="#"> 스포트/레일형 </a> </li>
+								<li> <a href="#"> 모던 펜던트형 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 벽등 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 클래식형 </a> </li>
+								<li> <a href="#"> 모던디자인 </a> </li>
+								<li> <a href="#"> 빈티지형 </a> </li>
+								<li> <a href="#"> 원목형 </a> </li>
+								<li> <a href="#"> 가지/관절형 </a> </li>
+								<li> <a href="#"> 외부/방수벽등 </a> </li>
+								<li> <a href="#"> 인테리어형 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 욕실/현관/센서 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 현관/복도 </a> </li>
+								<li> <a href="#"> 욕실등(방수) </a> </li>
+								<li> <a href="#"> 센서등 </a> </li>
+							</ul>
+						</li>	
+
+						<li> <a href="sub.html" target="_self"> 스탠드 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 단스탠드 </a> </li>
+								<li> <a href="#"> 장스탠드 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 키즈조명 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> LED 천장직부형 </a> </li>
+								<li> <a href="#"> 펜던트형 </a> </li>
+								<li> <a href="#"> 스탠드 </a> </li>
+								<li> <a href="#"> 벽등 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 스포트/매입등 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 스포트형 </a> </li>
+								<li> <a href="#"> 매입형 </a> </li>
+								<li> <a href="#"> 멀티형 </a> </li>
+								<li> <a href="#"> 계단매입형 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 야외/산업조명 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 잔디등 </a> </li>
+								<li> <a href="#"> 정원등 </a> </li>
+								<li> <a href="#"> 가로등 </a> </li>
+								<li> <a href="#"> 방수/벽등형 </a> </li>
+								<li> <a href="#"> 펜던트형 </a> </li>
+								<li> <a href="#"> 문주형 </a> </li>
+								<li> <a href="#"> 벌크/직부형 </a> </li>
+								<li> <a href="#"> 투광기 </a> </li>
+								<li> <a href="#"> 지중등 </a> </li>
+								<li> <a href="#"> 팩용 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> 전구/자재 </a>
+							<ul class="sub_menu">
+								<li> <a href="#"> 전구 </a> </li>
+								<li> <a href="#"> 인테리어소품 </a> </li>
+								<li> <a href="#"> 스위치/콘센트 </a> </li>
+								<li> <a href="#"> 레일 각종부속 </a> </li>
+							</ul>
+						</li>
+
+						<li> <a href="sub.html" target="_self"> DK단독 </a>
+							<ul class="sub_menu">
+								<img src="img/sub_menu_img.jpg" alt="sub_menu_img">
+							</ul>
+						</li>
+
 					</ul>
 				</div>
 			</div>
@@ -86,8 +191,19 @@
 
 
 	<div id="slider">
-		<div id="main">
-			<a href="#"> <img src="img/main/main1.jpg" alt="main1"> </a>
+		<ul class="main">
+			<li> <a href="#"> <img src="img/main/main1.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main2.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main3.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main4.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main5.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main6.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main7.jpg" alt="slide image"> </a> </li>
+			<li> <a href="#"> <img src="img/main/main8.jpg" alt="slide image"> </a> </li>
+		</ul>
+		<div id="spanbtn">
+			<span class="prev">&lt;</span>
+			<span class="next">&gt;</span>
 		</div>
 	</div>
 
@@ -109,8 +225,18 @@
 			</div>
 
 			<div class="sbox">
-				<a href="#"> <img src="img/sbox2-1.jpg" alt="sbox2-1">	 </a>
+				<ul class="main2">
+					<li> <a href="#"> <img src="img/sbox2-1.jpg" alt="sbox2"> </a> </li>
+					<li> <a href="#"> <img src="img/sbox2-2.jpg" alt="sbox2"> </a> </li>
+					<li> <a href="#"> <img src="img/sbox2-3.jpg" alt="sbox2"> </a> </li>
+				</ul>
+				<div id="spanbtn2">
+					<span class="prev2">&lt;</span>
+					<span class="next2">&gt;</span>
+				</div>
+
 			</div>
+
 			<div class="sbox">
 				<a href="#"> <img src="img/sbox3.jpg" alt="sbox3"> </a>
 			</div>
@@ -249,7 +375,7 @@
 	<footer>
 		<div id="footerbox">
 			<div id="footerbox1">
-				<a href="https://dklux.kr/" target="_blank"> <img src="img/footer1.jpg" alt="footer1"> </a>
+				<a href="#"> <img src="img/footer1.jpg" alt="footer1"> </a>
 
 				<div class="customer">
 					<h2> CUSTOMRE CENTER</h2>
@@ -265,16 +391,16 @@
 
 				<div class="footerul">
 					<ul>
-						<li> <a href="https://dklux.kr/shopinfo/company.html" target="_blank"> COMPANY </a>  </li>     
-						<li> <a href="https://dklux.kr/member/agreement.html" target="_blank"> AGREEMENT </a> </li>      
-						<li> <a href="https://dklux.kr/shopinfo/guide.html" target="_blank"> GUIDE </a> </li>     
-						<li> <a href="https://dklux.kr/member/privacy.html" target="_blank"> PRIVACY POLICY </a> </li>
+						<li> <a href="#"> COMPANY </a>  </li>     
+						<li> <a href="#"> AGREEMENT </a> </li>      
+						<li> <a href="#"> GUIDE </a> </li>     
+						<li> <a href="#"> PRIVACY POLICY </a> </li>
 					</ul>
 				</div>
 
 				<div class="footertext">
 					<p> COMPANY 대광조명 &nbsp;    OWNER 김계영   &nbsp;  TEL 02-2268-0887 &nbsp;    FAX 02-2269-0826 </p>
-					<p> BUSINESS NUMBER 101-02-50622 MAIL-ORDER LICENSE 제2015-서울중구-0962호 </p> <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1010250622" target="_blank"> <span class="footerlink"> [ 사업자정보확인 ] </span> </a>
+					<p> BUSINESS NUMBER 101-02-50622 MAIL-ORDER LICENSE 제2015-서울중구-0962호 </p> <a href="#"> <span class="footerlink"> [ 사업자정보확인 ] </span> </a>
 					<p> ADDRESS 서울특별시 중구 을지로 190 (을지로4가)  &nbsp;   E-MAIL dknokwon@naver.com </p>
 					<p>이미지 무단 도용 시 저작권법에 의해 처벌을 받을 수 있습니다. <br>
 					Copyright ⓒ 대광조명. All rights reserved.  </p>

@@ -29,12 +29,16 @@ header { width: 100%; height: 200px; }
 #top > #warp > #logo > a > img:hover { cursor: pointer; }
 
 /* 헤더 == 메뉴바 */
-.navbox { width: 100%; height: 45px; margin: 0 auto; border-top: 2px solid #eee; border-bottom: 2px solid #eee; }
+.navbox { width: 100%; height: 50px; margin: 0 auto; border-top: 2px solid #eee; border-bottom: 2px solid #eee; position: relative; }
 .navbox > ul { width: 1260px; height: 40px; margin: 0 auto;  }
-.navbox > ul > li { float: left; font-size: 14px; margin: 10px 0 0 25px; font-weight: bold; color: #999; }
-.navbox > ul > .subnav { font-size: 14px; color: #999; cursor: pointer;  }
+.navbox > ul > li { float: left; font-size: 14px; margin: 15px 0 0 30px; font-weight: bold; color: #999; }
 .navbox > ul > li > a { color: #000;  }
 .navbox > ul > li > a:hover { color: #666; cursor: pointer; }
+
+.navbox > ul > li > .sub_menu { width: auto; height: auto; background-color: #fff; padding: 10px 0px; border: 1px solid #eee; position: absolute; top: 48px; display: none; z-index: 3; }
+.navbox > ul > li > .sub_menu > li { width: 100px; height: 30px; line-height: 40px;  font-size: 12px; font-weight: 300; }
+.navbox > ul > li > .sub_menu > li > a { color: #000; }
+.navbox > ul > li > .sub_menu > li > a:hover { color: #ddd; }
 
 /* 푸터 */
 footer { width: 100%; border-top: 2px solid #eee; padding:20px 0 0 0px; background-color: #fff; max-height: 300px; }
