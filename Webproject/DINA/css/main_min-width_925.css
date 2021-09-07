@@ -1,0 +1,124 @@
+@charset "utf-8";
+* { margin: 0; box-sizing: border-box; }
+ul,li { list-style: none; margin: 0; padding: 0; }
+a { text-decoration: none; }
+.bar1 { cursor: pointer; }
+.bar2 { cursor: pointer; }
+html,body { width: 100%; height: 100%; overflow-x: hidden; }
+
+
+
+@media (min-width: 925px) {
+
+	#icon { width: 100%; height: 215px; background-color: #eee; margin: 0 auto;  }
+	#icon > .iconbox { width: 100%; height: 215px; margin: 0 auto; display: flex; justify-content: center; align-items: center;  }
+	#icon > .iconbox > .iconbox1 { width: 450px; height: 200px;  float: left; margin: 10px 0 0 10px;  display: flex; justify-content: space-around; }
+	#icon > .iconbox > .iconbox1 > img { width: 100px; height: 100px; margin: 40px 0 0 0; }
+	#icon > .iconbox > .iconbox1 > .icontext { width: 280px; height: 100px;  margin: 50px 0 0 0; float: right; }
+	#icon > .iconbox > .iconbox1 > .icontext > h5 { text-align: left; font-size: 24px; font-weight: 700; line-height: 1.4em; color: #252525; }
+	#icon > .iconbox > .iconbox1 > .icontext > p  { float: left; font-size: 16px; line-height: 1.7; color: #252525; }
+
+	#history { width: 100%; height: 500px; background-color: #fff; margin: 0 auto;  }
+	#history > .historybox { width: 65%; height: 500px;  margin: 0 auto; }
+	#history > .historybox > .historyimg { width: 40%; height: 80%;  float: right; margin: 70px 0 0 0; }
+	#history > .historybox > .historyimg > img { width: 100%; height: 100%;  }
+	#history > .historybox > .historytext { width: 55%; height: 500px; }
+	#history > .historybox > .historytext > h3 { width: 100%; height: 20px;  float: left; margin-top: 70px; line-height: 1.2em; font-size: 16px; font-weight: 400; }
+	#history > .historybox > .historytext > h2 { width: 50%; height: 50px;  line-height: 1.2em; display: inline-block; margin-bottom: 30px; font-size: 40px; font-weight: 700;  margin-top: 5px;  margin-left: 10px;  }
+	#history > .historybox > .historytext > .historyp1 { width: 95%; height: 70px; margin-left: 10px; font-size: 24px; font-weight: 300;  }
+	#history > .historybox > .historytext > .historyp2 { width: 98%; height: 80px; margin-top: 10px;  margin-left: 10px; line-height: 1.7em; font-size: 16px; font-weight: 400; }
+	#history > .historybox > .historytext > .historybtn { width: 170px; height: 50px; float: left; margin: 40px 0 0 10px;  }
+	#history > .historybox > .historytext > .historybtn > button {  width: 135px; height: 50px; border: 2px solid #000; background-color: #fff; font-size: 12px; border-radius: 0; font-weight: bold; text-align: center; cursor: pointer; } 
+	#history > .historybox > .historytext > .historybtn > button:hover { background-color: #bc8d4b; color: #fff; transition: 0.5s; border: none; }
+
+	#content {width:100%; height:400px; margin:0 auto; background-image: url("../img/back1.jpg"); background-attachment: fixed; background-size:cover; }
+	#content > .foodbox  { width: 100%; height: 400px; background-color: transparent; display: flex; align-items: center; }
+	#content > .foodbox > .foodbox2 { width: 275px; height: 275px; }
+	#content > .foodbox > .foodbox2 > img { width: 100%; height: 100%; }
+
+	#menu { width: 100%; height: 1000px; background-color: #fff; margin: 0 auto; display: flex; justify-content: center; align-content: center; flex-wrap: wrap; }
+	#menu > #menubox { width: 1130px; height: 850px;  display: flex; flex-direction: column; text-align: center; }
+	#menu > #menubox > .menuh3 { width: 100%; height: 25px;  margin-top: 20px; font-size: 16px; font-weight: 400; letter-spacing: 5px; }
+	#menu > #menubox > .menuh2 {  width: 25%; height: 65px;  font-size: 40px; font-weight: 700;  margin: 10px auto; }
+	#menu > #menubox > .menup {  width: 100%; height: 60px;  font-size: 16px;  line-height: 20px; } 
+
+	#menu > #menubox > #menubox2 { width: 100%; height: 260px;  margin-top: 30px; }
+	#menu > #menubox > #menubox2 > h4 { font-size: 20px; font-weight: 600; height: 12%; margin-bottom: 1%;}
+	#menu > #menubox > #menubox2 > .menubox2s { width: 50%; height: 85%; margin: 0 auto; float: left; }
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 { width: 100%; height: 100px;  margin-bottom: 20px;  display: flex; }
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menubox2img { width: 30%; height: 100%; }
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menubox2img > img { width: 100%; height: 100%; }
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menutext { width: 70%; height: 100%; display: flex; justify-content: space-between;}
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menutext > .menutext2 { display: flex; flex-direction: column; text-align: left;}
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menutext > .menutext2 > h2 { font-size: 16px; float: left; margin: 10px 10px 0;}
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menutext > .menutext2 > h4 { font-size: 13px; float: left; margin-left: 10px; font-weight: 300;}
+	#menu > #menubox > #menubox2 > .menubox2s > .menubox2-1 > .menutext > p { margin: 10px; font-weight: bold; }
+
+	#menu > #menubox > #menubox2 > .menubox3s { width: 50%; height: 85%; margin: 0 auto; float: right; }
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 { width: 100%; height: 100px;   margin-bottom: 20px; display: flex; }
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menubox3img { width: 30%; height: 100%; }
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menubox3img > img { width: 100%; height: 100%; }
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menutext { width: 70%; height: 100%;  display: flex; justify-content: space-between;}
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menutext > .menutext3 { display: flex; flex-direction: column; text-align: left;}
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menutext > .menutext3 > h2 { font-size: 16px; float: left; margin: 10px 10px 0;}
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menutext > .menutext3 > h4 { font-size: 13px; float: left; margin-left: 10px; font-weight: 300;}
+	#menu > #menubox > #menubox2 > .menubox3s > .menubox3-1 > .menutext > p { margin: 10px; font-weight: bold; }
+
+	#menu > #menubox > #menubox4 { width: 100%; height: 260px;  margin-top: 30px; }
+	#menu > #menubox > #menubox4 > h4 { font-size: 20px; font-weight: 600; height: 12%; margin-bottom: 1%;}
+
+	#menu > #menubox > #menubox4 > .menubox4s { width: 50%; height: 85%;  margin: 0 auto; float: left; }
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 { width: 100%; height: 100px;  margin-bottom: 20px;  display: flex;}
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menubox4img { width: 30%; height: 100%; }
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menubox4img > img { width: 100%; height: 100%; }
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menutext { width: 70%; height: 100%;  display: flex; justify-content: space-between;}
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menutext > .menutext4 { display: flex; flex-direction: column; text-align: left;}
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menutext > .menutext4 > h2 { font-size: 16px; float: left; margin: 10px 10px 0;}
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menutext > .menutext4 > h4 { font-size: 13px; float: left; margin-left: 10px; font-weight: 300;}
+	#menu > #menubox > #menubox4 > .menubox4s > .menubox4-1 > .menutext > p { margin: 10px; font-weight: bold; }
+
+	#menu > #menubox > #menubox4 > .menubox5s { width: 50%; height: 85%;  margin: 0 auto; float: right; }
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 { width: 100%; height: 100px;   margin-bottom: 20px; display: flex; }
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menubox5img { width: 30%; height: 100%; }
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menubox5img > img { width: 100%; height: 100%; }
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menutext { width: 70%; height: 100%;  display: flex; justify-content: space-between; }
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menutext > .menutext5 { display: flex; flex-direction: column; text-align: left;}
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menutext > .menutext5 > h2 { font-size: 16px; float: left; margin: 10px 10px 0;}
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menutext > .menutext5 > h4 { font-size: 13px; float: left; margin-left: 10px; font-weight: 300;}
+	#menu > #menubox > #menubox4 > .menubox5s > .menubox5-1 > .menutext > p { margin: 10px; font-weight: bold; }
+
+	#menu > #menubox > #menubtn { width: 100%; height: 50px;  margin-top: 2%; display: flex; justify-content: center; }
+	#menu > #menubox > #menubtn > button { width: 135px; height: 50px; color: #000; border: 2px solid #000; font-size: 12px; padding: 10px 25px; background: #fff; font-family: 'Poppins', sans-serif;  cursor: pointer; }
+	#menu > #menubox > #menubtn > button:hover { background-color: #bc8d4b; color: #fff; transition: 0.5s; border: none; }
+
+	#content2 {width:100%; height:400px; margin:0 auto; background-image: url("../img/back2.jpg"); background-attachment: fixed; background-size:cover; }
+	#content2 > .winebox { width: 100%; height: 400px; text-align: center; margin: 0 auto;  display: flex; flex-direction: column; justify-content: center; align-items: center; color: #fff;} 
+	#content2 > .winebox  > h1 { font-size: 54px; }
+	#content2 > .winebox  > h4 { font-size: 15px; font-weight: 500; }
+	#content2 > .winebox  > p { margin: 15px 0 10px; font-size: 16px; }
+	#content2 > .winebox  > button { color: #fff; border: 2px solid #fff; font-size: 12px; padding: 10px 25px; background: #000; font-family: 'Poppins', sans-serif;  cursor: pointer; margin-top: 10px;}
+	#content2 > .winebox  > button:hover { background-color: #bc8d4b;  transition: 0.5s;  }
+
+	#wine { width: 100%; height: 800px;  display: flex; justify-content: center; align-items: center; }
+	#wine > .winebox2 { width: 60%; height: 80%;  margin: 0 auto; display: flex; align-items: center; justify-content: space-between;}
+	#wine > .winebox2 > .wineimg { width: 45%; height: 80%;  float: left; }
+	#wine > .winebox2 > .wineimg > img { width: 100%; height: 100%; }
+
+	#wine > .winebox2 > .winetext2 { width: 50%; height: 80%; text-align: right; } 
+	#wine > .winebox2 > .winetext2 > h3 { font-size: 14px; font-weight: 400; }
+	#wine > .winebox2 > .winetext2 > h2 { font-size: 54px; }
+	#wine > .winebox2 > .winetext2 > .winep1 { font-size: 24px; margin: 5px 0px;  }
+	#wine > .winebox2 > .winetext2 > .winep2 { font-size: 16px; margin: 30px 0px; line-height: 25px;}
+	#wine > .winebox2 > .winetext2 > .winebtn { width: 170px; height: 50px; float: right; margin: 5px 0 0 10px;  }
+	#wine > .winebox2 > .winetext2 > .winebtn > button {  width: 135px; height: 50px;  border: 2px solid #000; background-color: #fff; font-size: 12px; border-radius: 0; font-weight: bold; text-align: center; cursor: pointer; } 
+	#wine > .winebox2 > .winetext2 > .winebtn > button:hover { background-color: #bc8d4b; color: #fff; transition: 0.5s; border: none; }
+
+
+	#content3 {width:100%; height:400px; margin:0 auto; background-image: url("../img/back3.jpg"); background-attachment: fixed; background-size:cover; }
+	#content3 > .pibox { width: 100%; height: 400px; text-align: center; margin: 0 auto;  display: flex; flex-direction: column; justify-content: center; align-items: center; color: #fff;} 
+	#content3 > .pibox  > h1 { font-size: 54px; margin-bottom: 10px; }
+	#content3 > .pibox  > h4 { font-size: 15px; font-weight: 500; margin-bottom: 5px; }
+	#content3 > .pibox  > p { margin: 15px 0 10px; font-size: 16px; }
+
+
+}

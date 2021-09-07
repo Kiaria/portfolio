@@ -1,0 +1,152 @@
+@charset "utf-8";
+@media (min-width: 925px) {
+	#bigbox { width: 1260px; height: 2800px; display: flex;   margin: 0 auto;}
+
+	#bigbox > #midbox { width: 100%; height: 2600px; display: flex; flex-direction: column; margin-top: 100px;   }
+	#bigbox > #midbox > .imgbox { width: 900px; height: 500px;  }
+	#bigbox > #midbox > .imgbox > img { width: 100%; height: 100%; }
+
+	#bigbox > #midbox > .midh2 { width: 900px; height: 70px; text-align: left;}
+	#bigbox > #midbox > .midh2 > h2 { font-size: 24px;  }
+	#bigbox > #midbox > .midh2 > .midp { font-size: 14px; color: #999; }
+
+	#bigbox > #midbox > ul { width: 900px; height: 30px;  margin-top: 10px;}
+	#bigbox > #midbox > ul > li { float: left; padding: 5px; font-size: 14px;  }
+	#bigbox > #midbox > ul > li > a { color : #666; text-decoration: none;}
+	#bigbox > #midbox > ul > li > a:hover { color: #DB9A64; }
+
+	#bigbox > #midbox > .midtext { width: 900px; height: 610px; margin-top: 30px; border-bottom: 2px solid #eee; }
+	#bigbox > #midbox > .midtext > .midtextbox { width: 900px; height: 80px;  margin-bottom: 20px; }
+	#bigbox > #midbox > .midtext > .midtextbox > p { color: #596672; font-size: 16px; font-weight: 400; line-height: 25px; }
+	#bigbox > #midbox > .midtext > .midtextbox:nth-of-type(4) { height: 10%; }
+	#bigbox > #midbox > .midtext > .midtextbox:nth-of-type(5) { height: 20%; }
+
+	#bigbox > #midbox > .midtext > .midtextbox1 { width: 900px; height: 200px; background-color: rgba(130, 139, 178, 0.1); margin-bottom: 20px; display: flex; justify-content: center; align-items: center;}
+	#bigbox > #midbox > .midtext > .midtextbox1 > .midtextbox2 { width: 670px; height: 150px; background-color: #fff; border-left: 2px solid ; padding: 20px;}
+	#bigbox > #midbox > .midtext > .midtextbox1 > .midtextbox2 > p { font-size: 16px; color: #888; line-height: 1.7; }
+
+	#bigbox > #midbox > .iconbox { width: 900px; height: 30px;  margin-top: 15px; display: flex; justify-content: space-between; }
+
+	#bigbox > #midbox > .iconbox > .iconp { width: 200px; height: 30px; }
+	#bigbox > #midbox > .iconbox > .iconp > p { font-size: 15px;  color: #596672; }
+
+	#bigbox > #midbox > .iconbox > .iconul { width: 140px; height: 30px;  }
+
+	#bigbox > #midbox > .iconbox > .iconul > ul { width: 140px; height: 30px; }
+	#bigbox > #midbox > .iconbox > .iconul > ul > li { float: left; margin: 2px 10px;}
+	#bigbox > #midbox > .iconbox > .iconul > ul > li > a { text-decoration: none; color: #999; }
+	#bigbox > #midbox > .iconbox > .iconul > ul > li > a:hover { color: #DB9A64; }
+
+	#bigbox > #midbox > .cobox  { width: 900px; height: 250px;  margin-top: 20px; display: flex; align-items: center; border-bottom: 2px solid #eee;}
+	#bigbox > #midbox > .cobox > .cobox2 { width: 900px; height: 150px; background-color: rgba(130, 139, 178, 0.1); display: flex; justify-content: space-around; padding-top: 25px; }
+
+
+	#bigbox > #midbox > .cobox > .cobox2 > .coimg { width: 100px; height: 100px;   }
+	#bigbox > #midbox > .cobox > .cobox2 > .coimg > img { width: 100%; height: 100%; border-radius: 50px; }
+
+	#bigbox > #midbox > .cobox > .cobox2 > .cotext { width: 700px; height: 100px;  }
+	#bigbox > #midbox > .cobox > .cobox2 > .cotext > .cotexth4 { width: 700px; height: 40px; padding-top: 10px;  }
+	#bigbox > #midbox > .cobox > .cobox2 > .cotext > .cotexth4 > h4 > a { text-decoration: none; color: #001D38; }
+	#bigbox > #midbox > .cobox > .cobox2 > .cotext > .cotexth4 > h4 > a:hover { color: #DB9A64; }
+
+	#bigbox > #midbox > .cobox > .cobox2 > .cotext > .cotextp {  width: 700px; height: 60px; font-size: 15px; color: #000; font-weight: 400;  }
+	#bigbox > #midbox > .cobox > .cobox2 > .cotext > .cotextp > p { line-height: 20px; padding-top: 10px; }
+
+
+	#bigbox > #midbox > .combox { width: 900px; height: 500px;  margin-top: 50px; border-bottom: 2px solid #eee; }  
+	#bigbox > #midbox > .combox > .comh4 { width: 900px; height: 30px; margin-bottom: 30px; }
+	#bigbox > #midbox > .combox > .comh4 > h4 { font-size: 18px; color: #001D38; font-weight: 500; }
+
+	#bigbox > #midbox > .combox > .combox2 { width: 900px; height: 115px; margin-bottom: 15px; display: flex; justify-content: space-between;}
+
+	#bigbox > #midbox > .combox > .combox2 > .comboximg { width: 100px; height: 100px; }
+	#bigbox > #midbox > .combox > .combox2 > .comboximg > img { width: 100%; height: 100%; border-radius: 50px;}
+
+	#bigbox > #midbox > .combox > .combox2 > .comtext { width: 800px; height: 100px; }
+
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp { width: 800px; height: 70px; padding: 10px 20px;}
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp > p { font-size: 14px; line-height: 20px;  }
+
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 { width: 800px; height: 30px; display: flex; justify-content: space-between; }
+
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp3 { width: 350px; height: 30px; display: flex; justify-content: space-between;}
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp3 > p { font-size: 16px; text-align: center; padding-left: 20px; padding-top: 5px;}
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp3 > p > a { text-decoration: none; color: #666; }
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp3 > p > a:hover { color: #DB9A64; }
+
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp3 > .comtextp3-1 { width: 210px; height: 30px; }
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp3 > .comtextp3-1 > p { font-size: 16px; color: #999; padding-top: 5px; padding-left: 5px; }
+
+
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp4 { width: 100px; height: 30px; text-align: center; }
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp4 > p { font-size: 14px; font-weight: 400; padding-top: 5px;}
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp4 > p > a { text-decoration: none; color: #000; }
+	#bigbox > #midbox > .combox > .combox2 > .comtext > .comtextp2 > .comtextp4 > p > a:hover { color: #DB9A64; }
+
+	#bigbox > #midbox > .container { margin-top: 30px; width: 900px; }
+
+	#bigbox > #midbox > .container > h4 { font-size: 18px; line-height: 22px; font-weight: 500; margin-bottom: 30px; margin-left: 5px; }
+	#bigbox > #midbox > .container > form > button { width: 230px; height: 60px; margin-top: 30px; padding: 18px 44px; background-color: #fff;  font-size: 14px; font-weight: 400; border: 1px solid #DB9A64; color: #DB9A64;  letter-spacing: 3px;  text-align: center; cursor: pointer; }
+	#bigbox > #midbox > .container > form > button:hover { background-color: #DB9A64; color: #fff; transition: 0.3s; }
+
+	#bigbox > #sidebox { width: 50%; height: 1800px; margin-top: 100px; display: flex; flex-direction: column;  margin-left: 50px;}
+
+	#bigbox > #sidebox > .search { width: 350px; height: 150px; background-color: #f1f3f9; display: flex; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 50px;}
+
+	#bigbox > #sidebox > .search > .search2 { display: flex; }
+	#bigbox > #sidebox > .search > .search2 > input { width: 200px; height: 50px; margin: 0 auto; border-color: #f0e9ff; font-size: 13px; padding-right: 20px; border-radius: 0; border: 1px solid #f0e9ff;}
+	#bigbox > #sidebox > .search > .search2 > button { width: 50px; height: 50px; margin: 0 auto; background-color: #fff; border: 1px solid #f0e9ff; padding: 4px 15px; border-left: 0; }
+	#bigbox > #sidebox > .search > button { width: 250px; height: 60px; margin-top: 10px; padding: 18px 44px; background-color: #fff;  font-size: 14px; font-weight: 400; border: 1px solid #DB9A64; color: #DB9A64;  letter-spacing: 3px;  text-align: center; cursor: pointer; }
+	#bigbox > #sidebox > .search > button:hover { background-color: #DB9A64; color: #fff; transition: 0.3s; }
+
+	#bigbox > #sidebox > .category { width: 350px; height: 400px; background-color: #f1f3f9;  }
+	#bigbox > #sidebox > .category > .categoryh4 { width: 350px; height: 60px; border-bottom: 2px solid #f0e9ff; display: flex; align-items: center;}
+	#bigbox > #sidebox > .category > .categoryh4 > h4 { font-size: 20px;  padding-left: 20px;}
+
+	#bigbox > #sidebox > .category > ul { margin-top: 20px; padding-left: 20px;  }
+	#bigbox > #sidebox > .category > ul > li  { margin-bottom: 20px; height: 30px; border-bottom: 1px solid #f0e9ff; }
+	#bigbox > #sidebox > .category > ul > li > a { color: #596672; text-decoration: none; }
+	#bigbox > #sidebox > .category > ul > li > a:hover { color: #DB9A64;  }
+	#bigbox > #sidebox > .category > ul > li:last-of-type { border-bottom: none; }
+
+
+	#bigbox > #sidebox > .post { width: 350px; height: 450px; background-color: #f1f3f9; margin-top: 50px; }
+	#bigbox > #sidebox > .post > .posth3 { width: 350px; height: 50px; display: flex; align-items: center; border-bottom: 2px solid #eee;  }
+	#bigbox > #sidebox > .post > .posth3 > h3 { font-size: 20px; font-weight: 500; padding-left: 20px; }
+
+	#bigbox > #sidebox > .post > .postbox { width: 350px; height: 355px; margin-top: 30px; display: flex; flex-direction: column; }
+	#bigbox > #sidebox > .post > .postbox > .postboxs { width: 350px; height: 80px; margin-bottom: 10px; display: flex; justify-content: space-between; }
+	#bigbox > #sidebox > .post > .postbox > .postboxs > .postimg { width: 80px; height: 80px; margin-left: 20px; }
+	#bigbox > #sidebox > .post > .postbox > .postboxs > .postimg > img { width: 100%; height: 100%; }
+
+	#bigbox > #sidebox > .post > .postbox > .postboxs > .posttext { width: 300px; height: 80px; }
+	#bigbox > #sidebox > .post > .postbox > .postboxs > .posttext > h3 > a { font-size: 16px; font-weight: 500;  margin-top: 20px;  margin-bottom: 20px; padding-left: 20px; color: #001D38; text-decoration: none; }
+	#bigbox > #sidebox > .post > .postbox > .postboxs > .posttext > h3 > a:hover { color: #DB9A64; }
+	#bigbox > #sidebox > .post > .postbox > .postboxs > .posttext > p { font-size: 14px; color: #596672; font-weight: 400;  padding-left: 20px; margin-top: 5px;}
+
+	#bigbox > #sidebox > .tag { width: 350px; height: 250px; background-color: #f1f3f9; margin-top: 50px; display: flex; align-items: center;}
+	#bigbox > #sidebox > .tag > .tagbox { width: 350px; height: 180px; }
+
+	#bigbox > #sidebox > .tag > .tagbox > .tagh4 { width: 350px; height: 35px; border-bottom: 2px solid #eee;  }
+	#bigbox > #sidebox > .tag > .tagbox > .tagh4 > h4 { font-size: 20px; font-weight: 500; padding-left: 20px; }
+
+
+	#bigbox > #sidebox > .tag > .tagbox > .taglist { width: 350px; height: 100px; margin-top: 30px; }
+	#bigbox > #sidebox > .tag > .tagbox > .taglist > ul { padding-left: 20px; }
+	#bigbox > #sidebox > .tag > .tagbox > .taglist > ul > li > a { color: #000; text-decoration: none;  width: 90px; height: 35px; background-color: #fff; border: 1px solid #ddd; padding: 4px 20px; font-size: 13px; float: left; text-align: center; margin-bottom: 15px; margin-right: 20px; }
+	#bigbox > #sidebox > .tag > .tagbox > .taglist > ul > li > a:hover { background-color: #DB9A64; color: #fff; transition: 0.3s; }
+
+
+
+	#bigbox > #sidebox > .letter { width: 350px; height: 265px; background-color: #f1f3f9; margin-top: 50px; display: flex; align-items: center;}
+	#bigbox > #sidebox > .letter > .letterbox { width: 350px; height: 200px; }
+
+	#bigbox > #sidebox > .letter > .letterbox > .letterh4 { width: 350px; height: 35px; border-bottom: 2px solid #eee;  }
+	#bigbox > #sidebox > .letter > .letterbox > .letterh4 > h4 { font-size: 20px; font-weight: 500; padding-left: 20px; }
+
+	#bigbox > #sidebox > .letter > .letterbox > .letterbox2 { width: 350px; height: 160px;  }
+	#bigbox > #sidebox > .letter > .letterbox > .letterbox2 > input { width: 300px; height: 50px; margin: 0 auto; border-color: #f0e9ff; font-size: 13px;  border-radius: 0; border: 1px solid #f0e9ff; margin-top: 20px; }
+
+	#bigbox > #sidebox > .letter > .letterbox >.letterbox2 > button { width: 300px; height: 60px; margin-top: 10px; padding: 18px 44px; background-color: #fff;  font-size: 14px; font-weight: 400; border: 1px solid #DB9A64; color: #DB9A64;  letter-spacing: 3px;  text-align: center; cursor: pointer; margin-top: 20px; margin-left: 25px;}
+	#bigbox > #sidebox > .letter > .letterbox >.letterbox2 > button:hover { background-color: #DB9A64; color: #fff; transition: 0.3s; }
+}
