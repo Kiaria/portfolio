@@ -31,7 +31,7 @@ $.ajax({
 $.ajax({
 		method: "GET",
 		url: "https://dapi.kakao.com/v3/search/book?target=title",
-		data: {	query: "소설/주식"},
+		data: {	query: "소설/IT"},
 		headers: {	Authorization: "KakaoAK dd34af244d07a5415ebdce6a61ce517c"}
 	})
 	.done(function (msg) {
