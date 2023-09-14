@@ -1,17 +1,10 @@
 $.ajax({
 		method: "GET",
 		url: "https://dapi.kakao.com/v3/search/book?target=title",
-		data: {
-			query: "소설"
-		},
-		headers: {
-			Authorization: "KakaoAK dd34af244d07a5415ebdce6a61ce517c"
-		}
+		data: { query: "소설"},
+		headers: {	Authorization: "KakaoAK dd34af244d07a5415ebdce6a61ce517c"}
 	})
 	.done(function (msg) {
-
-
-
 
 		var divs = document.getElementsByClassName('buy');
 
@@ -23,21 +16,16 @@ $.ajax({
 			var str2 = str.substring(0, 30);
 			$(".buy").eq(i).append("<p>" + str2 + "</p>");
 		}
-
-
 	});
 
 
 $.ajax({
 		method: "GET",
 		url: "https://dapi.kakao.com/v3/search/book?target=title",
-		data: {	query: "소설/IT"},
+		data: {	query: "소설/단편"},
 		headers: {	Authorization: "KakaoAK dd34af244d07a5415ebdce6a61ce517c"}
 	})
 	.done(function (msg) {
-
-
-
 
 		var divs = document.getElementsByClassName('look');
 
@@ -49,20 +37,15 @@ $.ajax({
 			var str2 = str.substring(0, 30);
 			$(".look").eq(i).append("<p>" + str2 + "</p>");
 		}
-
-
 	});
 
 $.ajax({
 		method: "GET",
 		url: "https://dapi.kakao.com/v3/search/book?target=title",
-		data: {	query: "고양이/소설"},
+		data: {	query: "소설/고양이"},
 		headers: {	Authorization: "KakaoAK dd34af244d07a5415ebdce6a61ce517c"}
 	})
 	.done(function (msg) {
-
-
-
 
 		var divs = document.getElementsByClassName('member');
 
@@ -74,6 +57,4 @@ $.ajax({
 			var str2 = str.substring(0, 30);
 			$(".member").eq(i).append("<p>" + str2 + "</p>");
 		}
-
-
 	});
