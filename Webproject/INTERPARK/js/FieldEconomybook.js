@@ -9,17 +9,14 @@
                        console.log( msg );
             var divs = document.getElementsByTagName('div');
             
-            for(var i=0; i<divs.length; i++){
- 
-                  var str=msg.documents[i].title;
-                  var str2=str.substring(0,17);
-	    var salep = parseInt(((msg.documents[i].price-msg.documents[i].sale_price)/msg.documents[i].price)*100)
+            for(let i=0; i<divs.length; i++){
+		let str=msg.documents[i].title;
+		let str2=str.substring(0,17);
+		let salep = parseInt(((msg.documents[i].price-msg.documents[i].sale_price)/msg.documents[i].price)*100)
 
-	
                   $("#fieldeconomy .ftextwrap div").eq(i).append("<img src='"+msg.documents[i].thumbnail+"'/>");
                   $("#fieldeconomy .ftextwrap div").eq(i).append("<h5>"+str2+"..."+"</h3>");
                   $("#fieldeconomy .ftextwrap div").eq(i).append("<h6>"+msg.documents[i].sale_price+"원"+"</h6>");
-
 
                   $("#fieldeconomy .ftextwrap div").eq(i).append("<h6 class='saleprice'>"+msg.documents[i].price+"원"+"</h6>");
                   $("#fieldeconomy .ftextwrap div").eq(i).append("<h6 class='saleprice2'>"+"("+salep+"%↓)"+"</h6>");  
