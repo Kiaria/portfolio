@@ -11,9 +11,9 @@
        
        for(var i=0; i<divs.length; i++){
          
-        var str=msg.documents[i].title;
-        var str2=str.substring(0,17);
-        var salep = parseInt(((msg.documents[i].price-msg.documents[i].sale_price)/msg.documents[i].price)*100)
+        let str=msg.documents[i].title;
+        let str2=str.substring(0,17);
+        let salep = parseInt(((msg.documents[i].price-msg.documents[i].sale_price)/msg.documents[i].price)*100)
 
         
         $("#fieldebook .ftextwrap div").eq(i).append("<img src='"+msg.documents[i].thumbnail+"'/>");
